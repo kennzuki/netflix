@@ -1,11 +1,13 @@
 import Navbar from '../../components/Navbar';
 import { FaPlay } from 'react-icons/fa';
 import { FaInfoCircle } from 'react-icons/fa';
+import TitleCarsds from "../../components/TitleCarsds";
 
 const Home = () => {
   return (
     <div className='bg-black text-white'>
-      <Navbar />
+          <Navbar />
+          {/* hero */}
       <section className='p-8 flex flex-col gap-4 place-items-start'>
         <img
           src='https://th.bing.com/th/id/OIP.wdG3R5tCatyc0UJPPQ8kVAHaLO?pid=ImgDet&w=179&h=271&c=7&dpr=1.3'
@@ -31,7 +33,10 @@ const Home = () => {
             <FaInfoCircle />
           </button>
         </article>
-      </section>
+          </section>
+          {/* hero */}
+          {/* cards */}
+          <TitleCarsds/>
     </div>
   );
 };

@@ -1,0 +1,16 @@
+const items = [
+  {
+    title: "Sunset over the mountains",
+    image: "https://example.com/images/sunset.jpg"
+  },
+  {
+    title: "City skyline at night",
+    image: "https://example.com/images/skyline.jpg"
+  },
+  {
+    title: "Forest in the morning",
+    image: "https://example.com/images/forest.jpg"
+  }
+];
+
+export default items
