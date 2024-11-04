@@ -2,6 +2,7 @@ import Navbar from '../../components/Navbar';
 import { FaPlay } from 'react-icons/fa';
 import { FaInfoCircle } from 'react-icons/fa';
 import TitleCards from "../../components/TitleCards";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -36,7 +37,14 @@ const Home = () => {
           </section>
           {/* hero */}
           {/* cards */}
-          <TitleCards/>
+          <TitleCards />
+          {/* categories */}
+          <TitleCards title={'Blockbuster movies'}/>
+          <TitleCards title={'only on Netflix'}/>
+          <TitleCards title={'Upcoming'}/>
+          <TitleCards title={'Blockbuster'} />
+          {/* footer */}
+          <Footer/>
     </div>
   );
 };

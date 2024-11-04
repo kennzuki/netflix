@@ -21,10 +21,10 @@ const items = [
   },
 ];
 
-const TitleCards = () => {
+const TitleCards = ({title}) => {
   return (
     <div className="p-8 ">
-      <h2 className='text-white font-bold text-3xl text-start'>Popular on netflix</h2>
+      <h2 className='text-white font-bold text-3xl text-start'>{title?title:"Popular on netflix"}</h2>
 
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 overflow-x-hidden'>
         {items.map((item, index) => (
