@@ -1,7 +1,7 @@
 import Navbar from '../../components/Navbar';
 import { FaPlay } from 'react-icons/fa';
 import { FaInfoCircle } from 'react-icons/fa';
-import TitleCarsds from "../../components/TitleCarsds";
+import TitleCards from "../../components/TitleCards";
 
 const Home = () => {
   return (
@@ -36,7 +36,7 @@ const Home = () => {
           </section>
           {/* hero */}
           {/* cards */}
-          <TitleCarsds/>
+          <TitleCards/>
     </div>
   );
 };

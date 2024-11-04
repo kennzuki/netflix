@@ -21,7 +21,7 @@ const items = [
   },
 ];
 
-const TitleCarsds = () => {
+const TitleCards = () => {
   return (
     <div className="p-8 ">
       <h2 className='text-white font-bold text-3xl text-start'>Popular on netflix</h2>
@@ -44,4 +44,4 @@ const TitleCarsds = () => {
   );
 };
 
-export default TitleCarsds;
+export default TitleCards;
