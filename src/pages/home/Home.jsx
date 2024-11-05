@@ -26,7 +26,7 @@ const Home = () => {
             Autobots and the evil Decepticons, comes to Earth, with a clue to
             the ultimate power held by a teenager.
           </p>
-          <article className='flex justify-evenly gap-4 place-items-center text-start w-1/2 [&_button]:bg-white [&_button]:px-3 [&_button]:py-2 [&_button]:rounded-xl [&_button]:text-black [&_button]:hover:bg-[#ffffffbf]'>
+          <article className='flex justify-evenly gap-4 place-items-start text-start w-1/2 [&_button]:bg-white [&_button]:px-3 [&_button]:py-2 [&_button]:rounded-xl [&_button]:text-black [&_button]:hover:bg-[#ffffffbf]'>
             <button className='flex gap-2 justify-evenly place-items-center'>
               Play
               <FaPlay />

@@ -35,7 +35,7 @@ const TitleCards = ({title}) => {
               className='w-full h-48 object-cover'
             />
             <div className='p-4'>
-              <h3 className='font-semibold text-2xl'>{item.title}</h3>
+              <h3 className='font-semibold text-sm'>{item.title}</h3>
             </div>
           </div>
         ))}

@@ -13,7 +13,7 @@ const Footer = () => {
               <FaXTwitter />
               <FaYoutube/>
           </section>
-          <section className="grid grid-cols-4 grid-rows-4 underline text-start mt-8">
+          <section className="grid xs:grid-cols-1 md:grid-cols-4 md:grid-rows-4 gap-8 underline text-start mt-8">
               <p className="">FAQ</p>
               <p className="">Help Center</p>
               <p className="">Account</p>
